@@ -1,0 +1,39 @@
+h1 {
+    color:white;
+}
+
+.header{
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: colum;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    /*background-color: rgb(250, 200, 200);
+    background-color: #fac8c8;*/
+    background-color: rgb(200, 202, 250);
+    background-color: #c8cafa;
+    /*background-color: #faf6c8;
+    background-color: #faf6c8;*/
+}
